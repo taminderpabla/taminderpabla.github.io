@@ -1,0 +1,244 @@
+/* GLOBAL --------------------------------------------- */
+:root {
+    --default-font: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+    --playfair-font: 'Playfair Display', sans-serif;
+    --black: #181818;
+    --white: #FFFFFF;
+    --blue: #7FC6F8;
+    --grey: #E5E5E5;
+    --dark-grey: #BBBCBE;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--black);
+}
+
+/* HEADER --------------------------------------------- */
+header {
+    align-items: center;
+    position: sticky;
+    padding: 3px 20px;
+    border-bottom: 1px solid var(--blue);
+    top: 0;
+    background-color: var(--white);
+}
+
+/* faded lettering */
+.banner {
+    padding: 10px;
+    text-align: center;
+    font-family: var(--playfair-font);
+    font-size: 18px;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+.letter-800 {
+    font-weight: 800;
+}
+
+.letter-700 {
+    font-weight: 700;
+}
+
+.letter-600 {
+    font-weight: 600;
+}
+
+.letter-500 {
+    font-weight: 500;
+}
+
+.letter-400 {
+    font-weight: 400;
+}
+
+.header-links {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+.header-links > li {
+    display: inline-block;
+}
+
+.header-links > li > a {
+    text-decoration: none;
+    font-family: var(--default-font);
+    font-size: 10px;
+    letter-spacing: 1px;
+    transition: all 0.3s ease 0ms;
+}
+
+.header-links > li > a:hover {
+    color: var(--blue);
+}
+
+
+/* SITE CONTENT --------------------------------------------- */
+.body-container {
+    padding-bottom: 25px;
+    background-color: var(--white);
+}
+
+.content-container {
+    padding: 10px 20px 10px 20px;
+    font-family: var(--default-font);
+    font-size: 12px;
+}
+
+.page-divider {
+    padding: 10px 20px;
+    border-bottom: 1px solid var(--grey);
+}
+
+/* picture styling */
+.picture-container {
+    padding: 10px 0;
+}
+
+img {
+    width: 175px;
+    height: auto;
+    /* background-color: var(--grey); */
+    border: 3px solid var(--blue);
+    border-radius: 50%;
+}
+
+/* text styling */
+.intro {
+    padding-bottom: 10px;
+    padding-right: 12%;
+}
+
+p {
+    line-height: 20px;
+}
+
+.bullet-points {
+    padding-top: 5px;
+} 
+
+h1 {
+    font-family: var(--playfair-font);
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+h2 {
+    padding-bottom: 5px;
+    /* match leo's project title font */
+    font-family: var(--default-font);
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--blue);
+}
+
+h2 > a {
+    font-family: var(--default-font);
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--blue);
+    text-decoration: underline;
+}
+
+h2 > a:hover {
+    color: var(--black);
+}
+
+h3 {
+    padding-bottom: 5px;
+    font-family: var(--playfair-font);
+    font-size: 11px;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+h4 > a {
+    font-family: var(--playfair-font);
+    font-size: 12px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    /* text-decoration: none; */
+}
+
+h4 > a:hover {
+    color: var(--blue);
+}
+
+/* FOOTER --------------------------------------------- */
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: var(--white);
+    padding: 12px 20px 12px 20px;
+    bottom: 0;
+    position: static;
+    /* position: fixed; */
+    border-top: 1px solid var(--blue);
+    overflow: hidden;
+}
+
+.footer-links > li, a {
+    text-decoration: none;
+    font-family: var(--default-font);
+    font-size: 10px;
+    letter-spacing: 1px;
+    transition: all 0.3s ease 0ms;
+}
+
+.footer-links {
+    list-style: none;
+}
+
+.footer-links > li {
+    display: inline-block;
+    padding-left: 20px;
+    list-style: none;
+}
+
+.footer-links > li > a {
+    transition: all 0.3s ease 0ms
+}
+
+.footer-links > li > a:hover {
+    color: var(--dark-grey)
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 350px) {
+    .message { 
+        visibility: hidden; 
+        display: none; 
+    }
+    img {
+        width: 60%;
+    }
+}
+
+@media screen and (width: 350px) {
+    .message { 
+        visibility: hidden; 
+    }
+    img {
+        width: 60%;
+    }
+} 
+
+@media (hover: none) and (pointer: coarse) {
+    .intro {
+        padding-right: 0;
+    }
+}
