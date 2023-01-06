@@ -27,4 +27,4 @@ _**Figure 1:** Homepage of [taminderpabla.com](https://taminderpabla.com)_
 
 ![image of webpage containing information about Leo the coding buddy](images/website_subpage.png)
 
-_**Figure 2:** [Subpage](https://taminderpabla.com/code-partner-leo) with content of Leo my coding assistant_
+_**Figure 2:** [Subpage](https://taminderpabla.com/pages/code-partner-leo.html) with content of Leo my coding assistant_
