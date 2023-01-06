@@ -1,7 +1,7 @@
 # Website - Personal Portfolio
 [![Author](https://img.shields.io/badge/author-taminderpabla-9cf.svg)](https://github.com/taminderpabla)
 ![Build Date Jan2023](https://img.shields.io/badge/build_date-Jan2023-brightgreen.svg)
-![Project WebTools](https://img.shields.io/badge/project-WebTools-red.svg)
+![Project Web Development](https://img.shields.io/badge/project-Web_Development-red.svg)
 [![Repo Link](https://img.shields.io/badge/repo-Website-lightgrey.svg)](https://github.com/taminderpabla/website)
 
 A website created for my portfolio and personal branding. 
