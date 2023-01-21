@@ -156,7 +156,7 @@ h2 > a:hover {
     color: var(--black);
 }
 
-h3 {
+.project-dates {
     padding-bottom: 5px;
     font-family: var(--playfair-font);
     font-size: 11px;
@@ -164,15 +164,13 @@ h3 {
     letter-spacing: 1px;
 }
 
-h4 > a {
+.learn-more  {
     font-family: var(--playfair-font);
     font-size: 12px;
     font-weight: 100;
     letter-spacing: 1px;
-    /* text-decoration: none; */
 }
-
-h4 > a:hover {
+.learn-more:hover {
     color: var(--blue);
 }
 
