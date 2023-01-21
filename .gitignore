@@ -1,2 +1,5 @@
 # Ignore IntelliJ IDEA directory
 .idea
+
+# Ignore text files
+.txt
