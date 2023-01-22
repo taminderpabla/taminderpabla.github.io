@@ -79,14 +79,13 @@ header {
     color: var(--blue);
 }
 
-
 /* SITE CONTENT --------------------------------------------- */
-.body-container {
+main {
     padding-bottom: 25px;
     background-color: var(--white);
 }
 
-.content-container {
+section {
     padding: 10px 20px 10px 20px;
     font-family: var(--default-font);
     font-size: 12px;
@@ -103,7 +102,7 @@ header {
 }
 
 img {
-    width: 175px;
+    width: 20%;
     height: auto;
     /* background-color: var(--grey); */
     border: 3px solid var(--blue);
